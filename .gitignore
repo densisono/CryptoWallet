@@ -193,6 +193,7 @@ publish/
 PublishScripts/
 
 # NuGet Packages
+packages/
 *.nupkg
 # NuGet Symbol Packages
 *.snupkg
@@ -361,3 +362,19 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+## Visual Studio temporary files
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Logs
+*.log
+
+## Environment files
+appsettings.Development.json
+appsettings.Production.json
