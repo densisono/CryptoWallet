@@ -1,0 +1,12 @@
+4. Resumen de Mejoras
+Problema							Solución
+
+			
+			
+Uso de DataTable y SqlDataAdapter	Reemplazar por Dapper o Entity Framework Core
+Consultas SQL con string dinámico	Usar procedimientos almacenados o SqlParameter en todas las consultas
+Métodos sin async/await				Hacer asíncronas todas las operaciones de base de datos
+
+
+
+Continuemos con: "Problema: Uso de IV estático en AES. Solucion: Generar IV aleatorio y almacenarlo con la clave cifrada"

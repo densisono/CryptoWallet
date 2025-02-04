@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSS.DHPM.CryptoWallet.Core", "CryptoWallet.Core\PSS.DHPM.CryptoWallet.Core.csproj", "{84672C99-526C-4A81-9FCF-2D6B18EE12DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSS.DHPM.CryptoWallet.Infrastructure", "CryptoWallet.Infrastructure\PSS.DHPM.CryptoWallet.Infrastructure.csproj", "{200AE995-5D86-4B45-A7BB-F8DEA90A7929}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSS.DHPM.CryptoWallet.Application", "..\CryptoWallet.Application\PSS.DHPM.CryptoWallet.Application.csproj", "{BEDF3275-74E9-4EDE-A352-42F761E3C51B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSS.DHPM.CryptoWallet.Tests", "..\CryptoWallet.Tests\PSS.DHPM.CryptoWallet.Tests.csproj", "{54F10A65-7A2F-4CCB-B51F-403ECE42C526}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSS.DHPM.CryptoWallet.API", "CryptoWallet.API\PSS.DHPM.CryptoWallet.API.csproj", "{F3ADE976-4ED4-423C-9237-ED1212BA9B20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSS.DHPM.CryptoWallet.Web", "CryptoWallet.Web\PSS.DHPM.CryptoWallet.Web.csproj", "{DBBF60DA-8F98-4088-BB39-8FBDFAD1E626}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSS.DHPM.CryptoWallet.Desktop", "CryptoWallet.Desktop\PSS.DHPM.CryptoWallet.Desktop.csproj", "{09354A6C-4DB9-437B-8A74-D6CCA2AB2FA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSS.DHPM.CryptoWallet.Reports", "CryptoWallet.Reports\PSS.DHPM.CryptoWallet.Reports.csproj", "{A8ADFD97-5660-4DB8-A5C6-A7F34088A502}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSS.DHPM.CryptoWallet.Monitoring", "CryptoWallet.Monitoring\PSS.DHPM.CryptoWallet.Monitoring.csproj", "{4AA90AA9-7801-4218-84E7-288B37F67F1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSS.DHPM.CryptoWallet.BackgroundJobs", "CryptoWallet.BackgroundJobs\PSS.DHPM.CryptoWallet.BackgroundJobs.csproj", "{8F948F1E-A724-4132-8894-7D46B2D9251C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84672C99-526C-4A81-9FCF-2D6B18EE12DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84672C99-526C-4A81-9FCF-2D6B18EE12DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84672C99-526C-4A81-9FCF-2D6B18EE12DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84672C99-526C-4A81-9FCF-2D6B18EE12DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{200AE995-5D86-4B45-A7BB-F8DEA90A7929}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{200AE995-5D86-4B45-A7BB-F8DEA90A7929}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{200AE995-5D86-4B45-A7BB-F8DEA90A7929}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{200AE995-5D86-4B45-A7BB-F8DEA90A7929}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEDF3275-74E9-4EDE-A352-42F761E3C51B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEDF3275-74E9-4EDE-A352-42F761E3C51B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEDF3275-74E9-4EDE-A352-42F761E3C51B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEDF3275-74E9-4EDE-A352-42F761E3C51B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54F10A65-7A2F-4CCB-B51F-403ECE42C526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54F10A65-7A2F-4CCB-B51F-403ECE42C526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54F10A65-7A2F-4CCB-B51F-403ECE42C526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54F10A65-7A2F-4CCB-B51F-403ECE42C526}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3ADE976-4ED4-423C-9237-ED1212BA9B20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3ADE976-4ED4-423C-9237-ED1212BA9B20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3ADE976-4ED4-423C-9237-ED1212BA9B20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3ADE976-4ED4-423C-9237-ED1212BA9B20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBBF60DA-8F98-4088-BB39-8FBDFAD1E626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBBF60DA-8F98-4088-BB39-8FBDFAD1E626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBBF60DA-8F98-4088-BB39-8FBDFAD1E626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBBF60DA-8F98-4088-BB39-8FBDFAD1E626}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09354A6C-4DB9-437B-8A74-D6CCA2AB2FA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09354A6C-4DB9-437B-8A74-D6CCA2AB2FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09354A6C-4DB9-437B-8A74-D6CCA2AB2FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09354A6C-4DB9-437B-8A74-D6CCA2AB2FA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8ADFD97-5660-4DB8-A5C6-A7F34088A502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8ADFD97-5660-4DB8-A5C6-A7F34088A502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8ADFD97-5660-4DB8-A5C6-A7F34088A502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8ADFD97-5660-4DB8-A5C6-A7F34088A502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AA90AA9-7801-4218-84E7-288B37F67F1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AA90AA9-7801-4218-84E7-288B37F67F1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AA90AA9-7801-4218-84E7-288B37F67F1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AA90AA9-7801-4218-84E7-288B37F67F1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F948F1E-A724-4132-8894-7D46B2D9251C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F948F1E-A724-4132-8894-7D46B2D9251C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F948F1E-A724-4132-8894-7D46B2D9251C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F948F1E-A724-4132-8894-7D46B2D9251C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
